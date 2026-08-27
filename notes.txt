@@ -1,0 +1,99 @@
+1.What is a variable in JavaScript?
+  A variable in JavaScript is a named container used to store data or values that can be used and changed in a program.
+
+2.What are the three keywords used to create variables?
+  *let
+  *var
+  *const
+
+3.Write the syntax to create a variable using var?
+   syntax: var variable_name=value;
+
+4.Write the syntax to create a variable using let?
+   syntax: let variable_name=value;
+
+5.Write the syntax to create a variable using const?
+   syntax: const variable_name=value;
+
+6. What is declaration?
+   Declaration means creating a variable without assigning a value.
+   syntax:let age;
+
+7. What is initialization?
+   Initialization means assigning a value to a variable for the first time.
+   syntax:let age = 25;
+
+8. What is reassignment?
+   Reassignment means changing the value of an existing variable.
+   syntax:let age = 25;
+          age = 30;
+
+
+9. What is redeclaration?
+   Redeclaration means declaring the same variable again using the same keyword within the same scope.
+   syntax:var x = 10;
+          var x = 20;
+
+10. Which keyword allows redeclaration?
+    var
+
+11. Which keyword allows reassignment?
+    var and let
+
+12.Which keyword requires initialization when declared?
+   const
+
+13. Identify declaration and initialization:
+    let age = 25;
+    ans:
+        Declaration → let age
+        Initialization → age = 25
+
+14.What is the value of a?
+   var a = 100;
+   console.log(a);
+   ans:
+      100
+
+15.Change the value to 200?
+   let number = 100;
+       number = 200;
+
+16.output?:  var a = 10;
+            console.log(a);
+   ans:10
+
+17.output?:  var a = 10;
+            a = 20;
+            console.log(a);
+    ans:20
+
+18.Output?:   var a = 10;
+             var a = 30;
+             console.log(a);
+   ans:30
+
+19.Write a var variable named name with the value "John"?
+   var name = "John";
+
+20.Create a var variable named price with the value 500.
+   var price = 500;
+
+21.Reassign price from 500 to 1000?
+   var price = 500;
+   price = 1000;
+
+22.output?  var x = 50;
+            x = 100;
+           console.log(x);
+   ans:100
+
+23.Can a var variable be reassigned?
+   yes
+
+24.Can a var variable be redeclared?
+   yes
+
+25.Write an example of var redeclaration?
+   var x = 10;
+   var x = 20;
