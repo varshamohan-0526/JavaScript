@@ -97,3 +97,107 @@
 25.Write an example of var redeclaration?
    var x = 10;
    var x = 20;
+
+
+26.Create a let variable named age with the value 25?
+   let age = 25;
+
+27.output?  let age = 20;
+            age = 30;
+           console.log(age);
+
+   ans:30
+
+28. Can a let variable be reassigned?
+    ans:Yes
+
+29. Can a let variable be redeclared?
+    ans:No
+
+30.Find the error:
+    let name = "John";
+    let name = "David";
+   ans:Error — name cannot be redeclared in the same scope.
+
+31.Create a let variable called city and assign "Chennai"?
+   let city = "Chennai";
+
+32.Change the value of city to "Salem"?
+   city = "Salem";
+
+33.output?  let x = 10;
+            x = 50;
+            console.log(x);
+   ans:50
+
+34.Write a let variable called salary with the value 25000?
+   ans:let salary = 25000;
+
+35.Reassign salary to 30000?
+  ans:salary = 30000;
+
+36.Create a const variable called pi with the value 3.14?
+   ans:const pi = 3.14;
+
+37.Can a const variable be reassigned?
+   ans:No
+
+38. Can a const variable be redeclared?
+    ans:No
+
+39.What is wrong?
+   ans: const age = 25; 
+
+40.What happens here?
+    const price = 500;
+    price = 1000;
+    ans:Error — a const variable cannot be reassigned.
+
+41.Create a const variable called country with the value "India"?
+   const country = "India";
+
+42.output? const x = 100;
+          console.log(x);
+
+    ans:100
+
+43.Which keyword should you use if the value should not be reassigned?
+    const
+
+44.Difference between let and const:
+
+   | `let`                      | `const`                    
+   | -------------------------- | -------------------------- |
+   | Can be reassigned          | Cannot be reassigned       |
+   | Initialization is optional | Initialization is required |
+   | Example: `let x = 10;`     | Example: `const x = 10;`   |
+
+45.Difference between var and const:
+
+   | `var`                      | `const`                    |
+   | -------------------------- | -------------------------- |
+   | Can be reassigned          | Cannot be reassigned       |
+   | Can be redeclared          | Cannot be redeclared       |
+   | Initialization is optional | Initialization is required |
+   | Function-scoped            | Block-scoped               |
+
+
+46.Write JavaScript code to print Hello World using console.log()?
+   console.log("Hello World");
+
+47.Write JavaScript code to print the number 500 using console.log()?
+   console.log(500);
+
+48.What is the purpose of console.warn()?
+   console.warn("This is a warning");
+
+49.What is the purpose of console.error()?
+    console.error("Something went wrong");
+
+50.What is the purpose of each?
+
+*alert()-Displays a message in a popup box.
+*prompt()-Asks the user to enter some input.
+*confirm()-Asks the user to confirm an action. It returns true or false
+*document.writeln()-Writes content directly into the HTML document.
+*console.log()-Displays information or values in the browser console.
