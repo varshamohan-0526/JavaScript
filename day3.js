@@ -39,7 +39,7 @@ console.log(Age);
 console.log("hello");
 
 //2
-alert("Hello jan");
+alert("Hello Jan");
 
 //3
 let one=confirm("Are you okay");
